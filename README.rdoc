@@ -1,28 +1,11 @@
-== README
+== README (Sample_App with errors)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is supposed to be the sample doc being used with Michael Hart's railstutorialbook.org described in chapter 3.  However, I cannot get the code to work with heroku.  
 
-Things you may want to cover:
+It generates constatly the error:
 
-* Ruby version
+* You must set config.secret_key_base in your app's config. 
 
-* System dependencies
+* I have reinstalled numerous times now.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* I suspect it has something to do with the version control or something along those lines.
